@@ -37,7 +37,7 @@
 	
  h1{
 	background-color: Darkred;
-    color: white;
+        color: white;
 	font-family: arial;
 	font-size: 28px;
 	text-transform: uppercase;
@@ -46,7 +46,7 @@
 }
 
  h4{
-    color: royalblue;
+        color: royalblue;
 	font-family: arial;
 	font-size: 32px;
 	text-transform: uppercase;
@@ -63,8 +63,8 @@ h3 {
      color: DimGray;
 }
 
-p {  font-size: 20px;
-     color: DimGray;
+p {font-size: 20px;
+   color: DimGray;
 }
 
 body{
