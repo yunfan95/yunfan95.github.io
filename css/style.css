@@ -78,6 +78,7 @@ a:hover {
 }
 
 div.menu-category {
+        padding-left: 8px;
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
