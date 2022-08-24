@@ -66,6 +66,12 @@ a, a > tt {
 	text-decoration: none;
 }
 
+.ref{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 a:hover {
 	border-bottom: 1px gray dotted;
 }
