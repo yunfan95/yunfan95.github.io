@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<!-- 	This is the "Head" of the HTML document.
+		It contains information that isn't displayed on the actual page, but is useful
+		for the web browser when loading the page	
+	-->
+	<head>
+		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
+		<title>AstroSites</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
+			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
+			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
+			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
+		-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
+			will load a separate set of CSS stylings from the file assets/css/noscript.css
+			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
+			available. 
+		-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<!-- The body is the location where your site's content will go -->
+	<body class="is-preload">
+
+			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+			<div id="wrapper">
+
+					<!-- This is where the content that appears on page load exists -->
+					<header id="header">
+						<!-- This is the main content of the front page -->
+						<div class="content">
+							<div class="inner">
+								<!-- Here is a heading where you can put your name -->
+								<h1>
+									Yunfan Wang 
+								</h1>
+								<!-- 	Here is an image where you can put a picture of you. 
+									You can change the width and height attributes below to change how large
+									your image is.
+
+									Try adding "border-radius: 50%;" to the style attribute.
+								-->
+								<img src="images/Yunfan.jpg" style="width:280px; height:280px; object-fit: cover;">
+								<!-- 	Here is a paragraph where you can put your position and institution, or
+									a short line about yourself.
+								-->
+								<p>
+									PhD candidate </br> </br>
+	
+									University of Michigan, Ann Arbor
+								</p>
+								<!-- Here is a paragraph where you can put a link to your CV -->
+								<p>
+									<!-- Note you will want to change where this points to! -->
+									<a href="./CV/CV_yunfanwang.pdf" target="_blank">Curriculum Vitae</a>
+								</p>
+							</div>
+						</div>
+						<!-- This is the navigation menu -->
+						<nav>
+							<!-- This element makes an "Unordered List" -->
+							<ul>
+								<!-- This is a "List Item" -->
+								<li>
+									<!-- 	Note that this links to #about, which will move the page to wherever
+										the element with the id "about" exists.
+									-->
+									<a href="#about">About Me</a>
+								</li>
+								<li>
+									<a href="#research">Research</a>
+								</li>
+								<li>
+									<a href="#community">Books</a>
+								</li>
+								<li>
+									<a href="#contact">Contact</a>
+								</li>
+								<!-- 	You can add another button to your navigation menu by adding
+									another List Item with a link inside of it.
+								-->
+								<!-- <li>
+									<a href="images/Astronomy.jpg">My CV</a>
+								</li> -->
+							</ul>
+						</nav>
+					</header>
+
+					<!-- These are the "cards" that appear when you click the buttons on the main page -->
+					<div id="main">
+						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
+							button links to.
+						-->
+						<article id="about">
+							<h2 class="major">About Me</h2>
+							<p> I am a 3-rd year Ph.D. student at university of Michigan, Ann Arbor. </br> </br>
+
+								<!-- Items contained in <b> tags are bolded! -->
+								<b>Education:</b> </br>
+								2021-present: PhD candidate @ Dep. of EECS, Umich </br>
+								2021: Master degree of scinence @ Dep. of EECS, THU </br>
+								2018: Bachelor degree of science @ Dep. of Physics, THU	</br>		
+							</p>
+							<p>
+								<b>Research Interests:</b> </br>
+								Localization, THz and mm-wave integrated circuits, Modeling </br>
+							</p>
+							<p>
+								<b>Publications:</b> </br>
+								Please refer to my <a href="https://scholar.google.com/citations?hl=zh-CN&user=xlTDBwUAAAAJ&view_op=list_works&gmla=AJsN-F70LIbU1POWWJePgiwBUwztK0fFHM0SyIh9JnagsQv5L1S3rHRHfVe81-ylo13nqJ8jOYnoNmosw3Cy3cJ5Bnrye-7a2hO3HQa7kcOpYjUyrpQ_sZU" style="color: red;">google scholar</a>
+							</p>
+						</article>
+
+						<!-- Here is the "Research" card. -->
+						<article id="research">
+							<h2 class="major">Research</h2>
+							<!span class="image main">
+								<!img src="images/pic02.jpg" alt=""/>
+							<!/span>
+							<p>
+								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
+									the next line.
+								-->
+								<b> Project I: LEO satellie localization </b><br>  From 2021-now, we were working on localization of miniature RF trackers using low earth orbit (LEO) satellites.
+
+<ol>
+  <li><p><a href="./Publications/Sensys_23.pdf" target="_blank" style="color: orange;"> Global Localization of Energy-Constrained Miniature RF Emitters using Low Earth Orbit Satellites </a> <br /> 
+  <b>Yunfan Wang</b>, Steve Young, Demba Komma, Jaechan Lim, Zhen Feng, Zichen Fan, Chien-wei Tseng, Hun-Seok Kim, and David Blaauw <br /> 
+  in 21th ACM Conference on Embedded Networked Sensor Systems (Sensys), 2023. </p> 
+</ol>
+							</p>
+							<p>
+						        <b> Project II: Tera-Hertz (THz) circuits and systems</b></br>
+From 2018 to 2021, we collaborated with Professor Wenhua Chen, Dr. Xiaofan Chen, Xingcun Li, Long Chen, and Shuyang Li on designing THz oscillator, power amplifier, antenna, and non-reciprocal components using the SiGe BiCMOS process. 
+								<ol>
+<li><p><a href="https://ieeexplore.ieee.org/document/9714199" target="_blank" style="color: orange;"> Highly Efficient Terahertz Beam-Steerable Integrated Radiator Based on Tunable Boundary Conditions</a> <br> 
+  <b>Yunfan Wang</b>, Wenhua Chen, Xingcun Li, Jiaxian Chen, Long Chen, Fei Huang, Shuyang Li, and ZhaoZhuo Wang<br> 
+  in Journal of Solid-state Circuit (JSSC) (invited paper), 2022.  
+   <li><p><a href="https://ieeexplore.ieee.org/document/9490490" target="_blank" style="color: orange;"> 305-325 GHz Non-Reciprocal Isolator Based on Peak-Control Gain-boosting Magnetless Non-reciprocal Metamaterials </a>  <br>
+  <b>Yunfan Wang</b>, Wenhua Chen, Xingcun Li, Shuyang Li, and Peigen Zhou <br> 
+  in Symposium on Radio Frequency Integrated Circuit (RFIC), 2021.  
+  
+  <li><p><a href="https://ieeexplore.ieee.org/document/9490472" target="_blank" style="color: orange;"> 300-335 GHz Highly Efficient Beam-Steerable Radiator Based on Tunable Boundary Conditions </a> <br>
+  <b>Yunfan Wang</b>, Wenhua Chen, Xingcun Li, Jiaxin Chen, Long Chen, and Shuyang Li <br /> 
+  in Symposium on Radio Frequency Integrated Circuit (RFIC), 2021.   
+</li>
+<li><p><a href="https://ieeexplore.ieee.org/abstract/document/9072349" target="_blank" style="color: orange;">A 210-GHz Magnetless Nonreciprocal Isolator in 130-nm SiGe Bicmos Based on Resistor-free Unidirectional Ring Resonators</a> <br>
+  <b>Yunfan Wang</b>, Wenhua Chen, and Xingcun Li <br /> 
+  in Microwave and Wireless Component Letter (MWCL), 2020.</li> 
+
+<li><p><a href="https://ieeexplore.ieee.org/document/8826588" target="_blank" style="color: orange;">Highly Linear and Magnetless Isolator Based on Weakly Coupled Nonreciprocal Metamaterials</a> <br /> 
+  <b>Yunfan Wang</b>, Wenhua Chen, and Xiaofan Chen <br /> 
+  in Transaction on Microwave Theory and Technique (TMTT), 2019. </p>  
+</ol>
+			
+<b> Project III: Electro-magnetic (EM) field modeling</b> </br> Before 2018, we collaborated with Professor Tianling Ren, Tian He, and Dr. Yanong Qiao, Yuhong Wei on circuit modeling and analysis. </br></br>
+
+<ol>
+<li><p><a href="https://pubs.acs.org/doi/10.1021/acsnano.8b02162" target="_blank" style="color: orange;">Multilayer Graphene Epidermal Electronic Skin</a> <br /> 
+
+  Yancong Qiao,<b>Yunfan Wang</b>, Tian He, Mingrui Li, Tian, He, Mingrui Li, Jinming Jian, Yuhong Wei, Ye Tian, Dan-Yang Wang, Yu Peng, Xiangshun Geng, Xuefeng Wang, Yunfei Zhao, Huimin Wang, Ningqin Deng, Muqiang Jian, Yingying Zhang, Renrong Liang, Yi Yang, and Tian-ling Ren. </br>
+  in ACS Nano, 2018. </p>  
+
+  
+ <li><p><a href="https://ieeexplore.ieee.org/document/8082751" target="_blank" style="color: orange;"> A Novel Design Method of RF Lens for Long-Range Wireless Power
+  Transmission</a> <br /> 
+
+  <b>Yunfan Wang</b>, and Wenhua Chen <br/> 
+  in Antenna and Wireless Propagation Letter (AWPL), 2017. </p> 
+  
+</li>
+</ol>				</p>
+						</article>
+
+						<!-- Here is the "community" card. -->
+						<article id="community">
+							<h2 class="major">Books</h2>
+							<!span class="image main">
+								<!img src="images/pic03.jpg" alt=""/>
+							<!/span>
+							<p>
+								Daodejing （道德经）
+							</p>
+							<p>
+								Yijing（易经）
+							</p>
+						</article>
+
+						<!-- Here is a the "Contact" card. -->
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							<p> 
+								<b>Email: </b>   yunfa@umich.edu
+							</p>
+							<p> 
+								<b>Address:</b> 1301 Beal Ave, Ann Arbor, MI 48109
+							</p>
+
+							<!-- 	Here are the fancy icons that link to your social media.
+								These icons are rendered using Font Awesome fonts, and you can find more icons
+								here: https://fontawesome.com/icons
+							-->
+						</article>
+					</div>
+
+					<!-- This is the footer that appears at the bottom of the page -->
+					<footer id="footer">
+						<!-- 	You can change "Untitled" to your name to show everyone that
+							this is your work.
+						-->
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+			<!--	This is the background image of the site.
+				All configuration of the background is done with CSS.
+				Look in the file assets/css/main.css and search for "#bg" to
+				see how this element is styled. Look for comments pointing 
+				to where you can set a new background image.
+			-->
+			<div id="bg"></div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
